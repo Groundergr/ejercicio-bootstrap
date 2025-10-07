@@ -1,0 +1,107 @@
+html {
+      scroll-behavior: smooth;
+    }
+    body {
+      position: relative;
+    }
+    .hero {
+      background: url('/img/eventotecnologia.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+    .custom-footer {
+      background-color: #343a40;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      
+    }
+     .needs-validation .form-control:invalid {
+      border-color: #dc3545;
+    }
+    .needs-validation .form-control:valid {
+      border-color: #198754;
+    }
+    footer{
+      background-color: aqua;
+      color:black;
+      
+      
+      
+     }
+     footer .redessociales{
+      display: flex;
+   font-size: 35px;
+   }
+   #ponentes{
+    justify-content: center;
+    display:flex 
+       }
+    
+    a[href]{
+      background-color:#88dc65 ;
+      color:white;
+      font-weight: bold;
+    }
+    a:hover[href]{
+      color: blue;
+    }
+    a{
+      color: black ;
+    }
+    #programa{
+      border: 5px solid green;
+    }
+    .table-responsive{
+      border: 2px solid green;
+      border-radius: 10px;
+          
+     }
+       .row{
+        background: skyblue;
+        padding-top:5px;
+        padding-bottom: 10px;
+       }
+             
+     .navbar-brand{
+      color:rgb(155, 101, 22);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+     .btn-primary {
+    background-color: blue !important; /* Nuevo color de fondo */
+    color: white; /* Color del texto */
+}
+
+.btn-primary:hover {
+    background-color: #bf92ce !important; /* Color al pasar el ratón */
+    border-color: #0096aa !important;
+}
+.btn-outline-dark{
+  background-color: aquamarine !important;
+}
+h2{
+  background-color: #88dc65 ;
+}
+.form-label{
+  font-weight: bold;
+}
+h1{
+background-color:blue;
+         }
+.eventotec{
+color:black;
+background-color:blue;
+}
+  
